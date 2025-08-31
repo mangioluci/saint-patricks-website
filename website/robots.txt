@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://chacarasaintpatrick.com.br/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Allow important pages
+Allow: /index.html
+Allow: /galeria.html
+Allow: /servicos.html
+Allow: /contato.html
+Allow: /assets/
+
+# Crawl delay (optional)
+Crawl-delay: 1

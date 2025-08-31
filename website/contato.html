@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Chácara Saint Patrick</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Entre em contato com a Chácara Saint Patrick. WhatsApp, localização, horários de funcionamento e informações para reservas.">
+    <meta name="keywords" content="contato chácara saint patrick, whatsapp, telefone, endereço, jundiaí, serra do japi">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contato - Chácara Saint Patrick">
+    <meta property="og:description" content="Entre em contato conosco para fazer sua reserva">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <meta property="og:url" content="https://chacarasaintpatrick.com.br/contato.html">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header class="navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="Chácara Saint Patrick" height="50">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicos.html">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-success ms-2 btn-whatsapp" href="#" id="nav-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Reservar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="contact-hero py-5">
+        <div class="container">
+            <div class="row align-items-center" style="margin-top: 100px;">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Entre em Contato</h1>
+                    <p class="lead mb-4">
+                        Estamos prontos para atendê-lo! Entre em contato conosco pelo WhatsApp 
+                        ou confira nossas informações de localização e horários.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#" class="btn btn-success btn-lg btn-whatsapp" 
+                       data-message="Olá! Gostaria de fazer uma reserva na Chácara Saint Patrick">
+                        <i class="fab fa-whatsapp"></i> Falar Agora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informações de Contato -->
+    <section class="contact-info py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- WhatsApp Principal -->
+                <div class="col-lg-4">
+                    <div class="contact-card text-center h-100">
+                        <div class="contact-icon whatsapp-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h4>WhatsApp</h4>
+                        <p class="contact-detail">(11) 91447-9990</p>
+                        <p class="text-muted mb-4">
+                            Atendimento rápido e direto para reservas e informações
+                        </p>
+                        <a href="#" class="btn btn-success btn-whatsapp" 
+                           data-message="Olá! Gostaria de informações sobre a Chácara Saint Patrick">
+                            <i class="fab fa-whatsapp"></i> Conversar
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Localização -->
+                <div class="col-lg-4">
+                    <div class="contact-card text-center h-100">
+                        <div class="contact-icon location-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Localização</h4>
+                        <p class="contact-detail">Serra do Japi</p>
+                        <p class="text-muted mb-4">
+                            Jundiaí - SP<br>
+                            Região preservada da Mata Atlântica
+                        </p>
+                        <a href="#" class="btn btn-outline-primary" id="location-btn">
+                            <i class="fas fa-route"></i> Ver Localização
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Horários -->
+                <div class="col-lg-4">
+                    <div class="contact-card text-center h-100">
+                        <div class="contact-icon time-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Horários</h4>
+                        <p class="contact-detail">Atendimento</p>
+                        <div class="text-muted mb-4">
+                            <p class="mb-1"><strong>Segunda a Sexta:</strong> 8h às 18h</p>
+                            <p class="mb-1"><strong>Sábados:</strong> 8h às 20h</p>
+                            <p class="mb-0"><strong>Domingos:</strong> 8h às 17h</p>
+                        </div>
+                        <a href="#" class="btn btn-outline-success btn-whatsapp" 
+                           data-message="Gostaria de saber sobre disponibilidade de datas">
+                            <i class="fab fa-whatsapp"></i> Consultar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formas de Contato -->
+    <section class="contact-methods py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Como Entrar em Contato</h2>
+                <p class="lead">Escolha a forma mais conveniente para você</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Reservas -->
+                <div class="col-lg-6">
+                    <div class="method-card">
+                        <div class="method-header">
+                            <i class="fas fa-calendar-check"></i>
+                            <h4>Para Reservas</h4>
+                        </div>
+                        <div class="method-content">
+                            <p>Faça sua reserva diretamente pelo WhatsApp com informações sobre:</p>
+                            <ul class="method-list">
+                                <li>Data desejada</li>
+                                <li>Número de pessoas</li>
+                                <li>Tipo de evento</li>
+                                <li>Serviços necessários</li>
+                            </ul>
+                            <a href="#" class="btn btn-success btn-whatsapp" 
+                               data-message="Gostaria de fazer uma reserva. Informações: Data: [sua data], Pessoas: [número], Evento: [tipo]">
+                                <i class="fab fa-whatsapp"></i> Reservar Agora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Informações -->
+                <div class="col-lg-6">
+                    <div class="method-card">
+                        <div class="method-header">
+                            <i class="fas fa-info-circle"></i>
+                            <h4>Para Informações</h4>
+                        </div>
+                        <div class="method-content">
+                            <p>Tire suas dúvidas sobre:</p>
+                            <ul class="method-list">
+                                <li>Preços e condições</li>
+                                <li>Disponibilidade</li>
+                                <li>Serviços inclusos</li>
+                                <li>Regras da chácara</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-success btn-whatsapp" 
+                               data-message="Gostaria de informações sobre preços e disponibilidade da Chácara Saint Patrick">
+                                <i class="fab fa-whatsapp"></i> Obter Informações
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="lead">Respostas para as dúvidas mais comuns</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <!-- FAQ 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                    Qual a capacidade máxima da chácara?
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Nossa chácara comporta confortavelmente até 50 pessoas, com amplo espaço para atividades 
+                                    ao ar livre e área coberta para proteção contra intempéries.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                    Quais são os horários de funcionamento?
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Funcionamos das 8h às 18h durante a semana, das 8h às 20h aos sábados e das 8h às 17h aos domingos. 
+                                    Para eventos especiais, podemos negociar horários diferenciados.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                    É permitido som alto?
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Respeitamos a tranquilidade da região. Som ambiente é permitido até as 22h, 
+                                    sempre respeitando os vizinhos e a natureza local.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                    Posso levar meu pet?
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sim! Pets são bem-vindos mediante consulta prévia. Pedimos apenas que sejam mantidos 
+                                    sob supervisão e que os proprietários sejam responsáveis pela limpeza.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                                    Como funciona o pagamento?
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Trabalhamos com entrada antecipada para confirmar a reserva e saldo no dia do evento. 
+                                    Aceitamos PIX, transferência bancária e dinheiro. Entre em contato para mais detalhes.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <p class="lead">Não encontrou sua resposta?</p>
+                <a href="#" class="btn btn-success btn-lg btn-whatsapp" 
+                   data-message="Tenho uma dúvida que não está no FAQ do site">
+                    <i class="fab fa-whatsapp"></i> Perguntar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa/Localização -->
+    <section class="location-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nossa Localização</h2>
+                <p class="lead">Na belíssima Serra do Japi, em Jundiaí</p>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="location-info">
+                        <h4 class="mb-4">Como Chegar</h4>
+                        <div class="location-details">
+                            <div class="location-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Endereço:</strong><br>
+                                    Serra do Japi, Jundiaí - SP<br>
+                                    <small class="text-muted">Localização exata enviada após confirmação da reserva</small>
+                                </div>
+                            </div>
+                            
+                            <div class="location-item">
+                                <i class="fas fa-car"></i>
+                                <div>
+                                    <strong>De carro:</strong><br>
+                                    Aproximadamente 1h de São Paulo<br>
+                                    Estacionamento gratuito no local
+                                </div>
+                            </div>
+                            
+                            <div class="location-item">
+                                <i class="fas fa-tree"></i>
+                                <div>
+                                    <strong>Ambiente:</strong><br>
+                                    Área de preservação da Mata Atlântica<br>
+                                    Ar puro e contato com a natureza
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-success btn-whatsapp" 
+                               data-message="Gostaria de receber a localização exata da chácara">
+                                <i class="fab fa-whatsapp"></i> Solicitar Localização
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="location-image">
+                        <img src="assets/images/serra-japi/vista-aerea.jpg" alt="Vista da Serra do Japi" class="img-fluid rounded shadow">
+                        <div class="location-overlay">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Serra do Japi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="contact-cta py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="mb-4">Pronto para Fazer sua Reserva?</h3>
+                    <p class="lead mb-4">
+                        Entre em contato conosco agora mesmo pelo WhatsApp. 
+                        Estamos ansiosos para recebê-lo na Chácara Saint Patrick!
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-success btn-lg me-3 btn-whatsapp" 
+                           data-message="Olá! Quero fazer uma reserva na Chácara Saint Patrick">
+                            <i class="fab fa-whatsapp"></i> Reservar Agora
+                        </a>
+                        <a href="galeria.html" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-images"></i> Ver Fotos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5>Chácara Saint Patrick</h5>
+                    <p>Seu evento perfeito na Serra do Japi</p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <p>&copy; 2025 Chácara Saint Patrick. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button Fixo -->
+    <div class="whatsapp-float" id="whatsapp-float">
+        <a href="#" id="whatsapp-link" title="Fale conosco no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/whatsapp.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <script>
+        // Script específico para página de contato
+        document.addEventListener('DOMContentLoaded', function() {
+            // Botão de localização
+            const locationBtn = document.getElementById('location-btn');
+            if (locationBtn) {
+                locationBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    // Aqui você pode integrar com Google Maps ou outro serviço
+                    const whatsappMessage = "Gostaria de receber a localização exata da Chácara Saint Patrick";
+                    const whatsappLink = generateWhatsAppLink(whatsappMessage);
+                    window.open(whatsappLink, '_blank');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

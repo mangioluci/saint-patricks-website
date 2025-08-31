@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - Chácara Saint Patrick</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Conheça todos os serviços e comodidades da Chácara Saint Patrick - piscina, churrasqueira, área verde, estacionamento e muito mais.">
+    <meta name="keywords" content="serviços chácara saint patrick, comodidades, piscina, churrasqueira, área verde, jundiaí">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Serviços - Chácara Saint Patrick">
+    <meta property="og:description" content="Conheça todos os serviços e comodidades da nossa chácara">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <meta property="og:url" content="https://chacarasaintpatrick.com.br/servicos.html">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header class="navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="Chácara Saint Patrick" height="50">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="servicos.html">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-success ms-2 btn-whatsapp" href="#" id="nav-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Reservar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="services-hero py-5">
+        <div class="container">
+            <div class="row align-items-center" style="margin-top: 100px;">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Nossos Serviços</h1>
+                    <p class="lead mb-4">
+                        Descubra todas as comodidades e serviços que oferecemos para tornar 
+                        seu evento inesquecível na Serra do Japi.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#" class="btn btn-success btn-lg btn-whatsapp" 
+                       data-message="Gostaria de saber mais sobre os serviços da chácara">
+                        <i class="fab fa-whatsapp"></i> Consultar Serviços
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Principais -->
+    <section class="main-services py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Área Aquática -->
+                <div class="col-lg-6">
+                    <div class="service-detail-card h-100">
+                        <div class="service-image">
+                            <img src="assets/images/galeria/piscina-01.jpg" alt="Piscina" class="img-fluid">
+                            <div class="service-icon-overlay">
+                                <i class="fas fa-swimming-pool"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Área Aquática Completa</h3>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Piscina adulto (8m x 4m)</li>
+                                <li><i class="fas fa-check"></i> Piscina infantil</li>
+                                <li><i class="fas fa-check"></i> Área de descanso</li>
+                                <li><i class="fas fa-check"></i> Espreguiçadeiras</li>
+                                <li><i class="fas fa-check"></i> Ducha externa</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-success service-whatsapp" 
+                               data-service="área aquática">
+                                <i class="fab fa-whatsapp"></i> Consultar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Churrasqueira -->
+                <div class="col-lg-6">
+                    <div class="service-detail-card h-100">
+                        <div class="service-image">
+                            <img src="assets/images/galeria/churrasqueira-01.jpg" alt="Churrasqueira" class="img-fluid">
+                            <div class="service-icon-overlay">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Churrasqueira Profissional</h3>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Churrasqueira de alvenaria</li>
+                                <li><i class="fas fa-check"></i> Bancada ampla</li>
+                                <li><i class="fas fa-check"></i> Pia com água corrente</li>
+                                <li><i class="fas fa-check"></i> Área coberta</li>
+                                <li><i class="fas fa-check"></i> Utensílios básicos</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-success service-whatsapp" 
+                               data-service="churrasqueira">
+                                <i class="fab fa-whatsapp"></i> Consultar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Área Coberta -->
+                <div class="col-lg-6">
+                    <div class="service-detail-card h-100">
+                        <div class="service-image">
+                            <img src="assets/images/galeria/area-coberta-01.jpg" alt="Área Coberta" class="img-fluid">
+                            <div class="service-icon-overlay">
+                                <i class="fas fa-home"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Salão Coberto</h3>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Capacidade para 50 pessoas</li>
+                                <li><i class="fas fa-check"></i> Mesas e cadeiras</li>
+                                <li><i class="fas fa-check"></i> Proteção contra chuva</li>
+                                <li><i class="fas fa-check"></i> Iluminação adequada</li>
+                                <li><i class="fas fa-check"></i> Ventilação natural</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-success service-whatsapp" 
+                               data-service="área coberta">
+                                <i class="fab fa-whatsapp"></i> Consultar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Área Verde -->
+                <div class="col-lg-6">
+                    <div class="service-detail-card h-100">
+                        <div class="service-image">
+                            <img src="assets/images/galeria/area-verde-01.jpg" alt="Área Verde" class="img-fluid">
+                            <div class="service-icon-overlay">
+                                <i class="fas fa-tree"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Área Verde Preservada</h3>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> 2.000m² de área verde</li>
+                                <li><i class="fas fa-check"></i> Jardim paisagístico</li>
+                                <li><i class="fas fa-check"></i> Árvores nativas</li>
+                                <li><i class="fas fa-check"></i> Espaço para recreação</li>
+                                <li><i class="fas fa-check"></i> Contato com a natureza</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-success service-whatsapp" 
+                               data-service="área verde">
+                                <i class="fab fa-whatsapp"></i> Consultar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Adicionais -->
+    <section class="additional-services py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Serviços Adicionais</h2>
+                <p class="lead">Comodidades extras para seu conforto</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="additional-service-card text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h4>Estacionamento</h4>
+                        <p>Amplo estacionamento com capacidade para 20 veículos, com segurança 24h.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="additional-service-card text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Segurança</h4>
+                        <p>Monitoramento 24h e ambiente totalmente seguro para você e sua família.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="additional-service-card text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h4>Recreação</h4>
+                        <p>Espaços para atividades recreativas e jogos ao ar livre para toda família.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="additional-service-card text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <h4>Wi-Fi</h4>
+                        <p>Internet de alta velocidade disponível em toda a propriedade.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="additional-service-card text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h4>Cozinha</h4>
+                        <p>Cozinha equipada com geladeira, fogão e utensílios básicos.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="additional-service-card text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-restroom"></i>
+                        </div>
+                        <h4>Banheiros</h4>
+                        <p>Banheiros completos com chuveiro e água quente disponível.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tipos de Eventos -->
+    <section class="event-types py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Tipos de Eventos</h2>
+                <p class="lead">Ideal para diversas ocasiões especiais</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="event-type-card">
+                        <div class="event-icon">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <h5>Aniversários</h5>
+                        <p>Celebre seu aniversário em um ambiente único e especial.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="event-type-card">
+                        <div class="event-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h5>Confraternizações</h5>
+                        <p>Perfeito para reunir amigos e família em momentos especiais.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="event-type-card">
+                        <div class="event-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h5>Eventos Corporativos</h5>
+                        <p>Ambiente ideal para team building e eventos empresariais.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="event-type-card">
+                        <div class="event-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h5>Casamentos</h5>
+                        <p>Cerimônias íntimas em meio à natureza da Serra do Japi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="services-cta py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="mb-4">Pronto para Reservar?</h3>
+                    <p class="lead mb-4">
+                        Entre em contato conosco e faça sua reserva. 
+                        Teremos prazer em recebê-lo na Chácara Saint Patrick!
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-success btn-lg me-3 btn-whatsapp" 
+                           data-message="Gostaria de fazer uma reserva na Chácara Saint Patrick">
+                            <i class="fab fa-whatsapp"></i> Fazer Reserva
+                        </a>
+                        <a href="galeria.html" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-images"></i> Ver Galeria
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5>Chácara Saint Patrick</h5>
+                    <p>Seu evento perfeito na Serra do Japi</p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <p>&copy; 2025 Chácara Saint Patrick. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button Fixo -->
+    <div class="whatsapp-float" id="whatsapp-float">
+        <a href="#" id="whatsapp-link" title="Fale conosco no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/whatsapp.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
