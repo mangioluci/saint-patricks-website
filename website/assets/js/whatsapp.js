@@ -69,25 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Configurar botão de navegação
-    const navWhatsApp = document.getElementById('nav-whatsapp');
-    if (navWhatsApp) {
-        navWhatsApp.addEventListener('click', function(e) {
-            e.preventDefault();
-            const message = 'Olá! Vim pelo site e gostaria de fazer uma reserva na Chácara Saint Patrick.';
-            window.open(generateWhatsAppLink(message), '_blank');
-        });
-    }
-    
-    // Configurar botão do hero
-    const heroWhatsApp = document.getElementById('hero-whatsapp');
-    if (heroWhatsApp) {
-        heroWhatsApp.addEventListener('click', function(e) {
-            e.preventDefault();
-            const message = 'Olá! Vi o site da Chácara Saint Patrick e gostaria de fazer uma reserva!';
-            window.open(generateWhatsAppLink(message), '_blank');
-        });
-    }
+    // Listeners específicos removidos — usar apenas '.btn-whatsapp' com data-message
 });
 
 // Função para atualizar número do WhatsApp (caso necessário)
